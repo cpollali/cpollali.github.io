@@ -33,11 +33,11 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper" >
-      <div class="container" style="color: #e0e0e0;">
+    <div class="navbar-wrapper" style="margin-top: 0px; ">
+      <div class="container" style="color: #e0e0e0; width: 85.8%; ">
 
-        <nav class="navbar navbar-inverse navbar-static-top" > <!-- style="background-color:#371919;">  style="background-color:#660000;"-->
-          <div class="container" >
+        <nav class="navbar navbar-inverse navbar-static-top" style="background-color: #4D4D4D" > <!-- style="background-color:#371919;">  style="background-color:#660000;"-->
+          <div class="container" style="color: white">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -45,13 +45,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">Christina Pollalis</a>
+              <a class="navbar-brand" href="index.html" style="color: white">christina<b>pollalis</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav" style="float:right !important;">
                 <!-- <li class="active"><a href="#">Projects</a></li> -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects/Research <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white; font-weight: normal;">Projects/Research <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="index.html"><b>All projects/research</b></a></li>
                     <li><a href="pghci.html">PGHCI</a></li>
@@ -68,8 +68,8 @@
                     <li><a href="#">One more separated link</a></li> -->
                   </ul>
                 </li>
-                <li><a href="cv.pdf">Resume/CV</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.pdf" style="color: white; font-weight: normal;">Resume/CV</a></li>
+                <!-- <li><a href="contact.html" style="color: white; font-weight: normal;">Contact</a></li> -->
               </ul>
             </div>
           </div>
@@ -139,7 +139,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing" style="border-left:3px solid #101010; border-right:3px solid #101010;"> <!-- add this style to the css -->
+    <div class="container marketing" style="border-left:3px solid #4D4D4D; border-right:3px solid #4D4D4D;"> <!-- add this style to the css -->
 
     <!--Who am I-->
     <center >
@@ -153,7 +153,7 @@
       <br>
       <br>
       <br>
-      <img class="name" src="img/name.svg" width="60%" alt="Name" title="Name">
+      <img class="name" src="img/name.svg" width="80%" alt="Name" title="Name">
      <!--images taken from/credit for images: 
       Plug by Aybige from the Noun Project
       Mouse by Amy Schwartz from the Noun Project
@@ -161,8 +161,8 @@
      <!--  <a href="https://likedin..." class="spacer">
         <img class="logo" src="img/linkedinlogo.png" alt="LinkedIn" title="LikedIn">
       </a> --><!-- </h2> -->
-      <h6>Research Fellow at the Wellesley Human Computer Lab,<br>
-      UI/UX Programmer and Researcher</h6>
+      <h4>Research Fellow at the Wellesley Human Computer Lab,<br>
+      UI/UX Programmer and Researcher</h4>
 
     </center>
     <br>
@@ -183,17 +183,17 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="img/PGHCI.png" alt="PGHCI thumbnail" width="200" height="200">
+          <a href="pghci.html"><img class="img-circle" src="img/PGHCI.png" alt="PGHCI thumbnail" width="200" height="200"></a>
           <h2>PGHCI</h2>
-          <p>Personal Genomics for Human-Computer Interaction is an NSF funded collaborative project with New York University and The Personal Genome Project at Harvard. It aims to allow non-expert users understand their genomic data.</p>
+          <p class="lead">Personal Genomics for Human-Computer Interaction is an NSF funded collaborative project with New York University and The Personal Genome Project at Harvard. It aims to allow non-expert users understand their genomic data.</p>
           <p><a class="btn btn-default" href="pghci.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
 
         <div class="col-lg-4">
-          <img class="img-circle" src="img/holodavis1.png" alt="HoloMuse thumbnail" width="200" height="200">
+          <a href="holodavis.html"><img class="img-circle" src="img/holodavis1.png" alt="HoloMuse thumbnail" width="200" height="200"></a>
           <h2>HoloMuse</h2>
-          <p>A collaboration project with the Davis Museum at Wellesley College. Involves coding and testing a Microsoft HoloLens application, where a user can manipulate 3D artifacts to create a museum exhibit that can later be viewed by other users.</p>
+          <p class="lead">A collaboration project with the Davis Museum at Wellesley College. Involves coding and testing a Microsoft HoloLens application, where a user can manipulate 3D artifacts to create a museum exhibit that can later be viewed by other users.</p>
           <p><a class="btn btn-default" href="holodavis.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
@@ -201,37 +201,38 @@
 
 
         <div class="col-lg-4">
-          <img class="img-circle" src="img/safespace.png" alt="Sspace thumbnail" width="200" height="200">
+          <a href="sspace.html"><img class="img-circle" src="img/safespace.png" alt="Sspace thumbnail" width="200" height="200"></a>
           <h2>Sspace</h2>
-          <p>A project that involved creating an application, where Wellesley College students can rate and comment on social spaces in Boston based how safe they felt the space was. Aims to counter the recent safety concerns on college campuses.</p>
+          <p class="lead">A project that involved creating an application, where Wellesley College students can rate and comment on social spaces in Boston based how safe they felt the space was. Aims to counter the recent safety concerns on college campuses.</p>
           <p><a class="btn btn-default" href="sspace.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
 
         <div class="col-lg-4">
-          <img class="img-circle" src="img/twitter.png" alt="twittertrails thumbnail" width="200" height="200">
+          <a href="twittertrails.html"><img class="img-circle" src="img/twitter.png" alt="twittertrails thumbnail" width="200" height="200"></a>
           <h2>TwitterTrails</h2>
-          <p>A tool funded by the NSF that explores and draws conclusions about how false information spreads on Twitter. Aims to help users determine whether a particular story on twitter is true or false by allowing them to search for it. Target audience are members of the media.</p>
+          <p class="lead">A tool funded by the NSF that explores and draws conclusions about how false information spreads on Twitter. Aims to help users determine whether a particular story on twitter is true or false by allowing them to search for it. Target audience are members of the media.</p>
           <p><a class="btn btn-default" href="twittertrails.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
-          <img class="img-circle" src="img/ruhlman.png" alt="Ruhlman data thumbnail" width="200" height="200">
+          <a href="ruhlman.html"> <img class="img-circle" src="img/ruhlman.png" alt="Ruhlman data thumbnail" width="200" height="200"></a>
           <h2>Ruhlman Data</h2>
-          <p>A project involving cleaning and analyzing data from twenty years of the Wellesley Ruhlman Conference to draw conclusions about the nature of the conference.</p>
+          <p class="lead">A project involving cleaning and analyzing data from twenty years of the Wellesley Ruhlman Conference to draw conclusions about the nature of the conference.</p>
           <p><a class="btn btn-default" href="ruhlman.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
-          <img class="img-circle" src="img/wefit0.png" alt="fitApp thumbnail" width="200" height="200">
+          <a href="wefit.html"><img class="img-circle" src="img/wefit0.png" alt="fitApp thumbnail" width="200" height="200"></a>
           <h2>WeFit</h2>
-          <p>A health and fitness Java application targeted at grade-school children to encourage healthy lifestyle choices. Children log in to submit their daily exercise and compete with other users on the application.</p>
+          <p class="lead">A health and fitness Java application targeted at grade-school children to encourage healthy lifestyle choices. Children log in to submit their daily exercise and compete with other users on the application.</p>
           <p><a class="btn btn-default" href="wefit.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
-          <img class="img-circle" src="img/hbsthumb.png" alt="HBS thumbnail" width="200" height="200">
+          <a href="hbs.html"><img class="img-circle" src="img/hbsthumb.png" alt="HBS thumbnail" width="200" height="200"></a>
           <h2>HBS Time Management</h2>
-          <p>A collaboration project with a professor at the Harvard Business School. It aimed to help users plan their time better by creating a Google Calendar plug-in that would convert a user's calendar into an interactive data visualization.</p>
+          <p class="lead">A collaboration project with a professor at the Harvard Business School. It aimed to help users plan their time better by creating a Google Calendar plug-in that would convert a user's calendar into an interactive data visualization.</p>
           <p><a class="btn btn-default" href="hbs.html" role="button">More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
