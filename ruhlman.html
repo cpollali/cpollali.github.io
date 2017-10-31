@@ -34,10 +34,10 @@
 ================================================== -->
   <body>
     <div class="navbar-wrapper" style="margin-top: 0px; ">
-      <div class="container" style="color: #e0e0e0; width: 85.8%; ">
+      <div class="container" style="width: 100%; ">
 
-        <nav class="navbar navbar-inverse navbar-static-top" style="background-color: #4D4D4D" > <!-- style="background-color:#371919;">  style="background-color:#660000;"-->
-          <div class="container" style="color: white">
+        <nav class="navbar navbar-inverse navbar-static-top" style="background-color: white; border-color: white" > <!-- style="background-color:#371919;">  style="background-color:#660000;"-->
+          <div class="container" style="color: black">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -45,30 +45,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html" style="color: white">christina<b>pollalis</a>
+             <!--  <a class="navbar-brand" href="index.html" style="color: blue">CHRISTINA POLLALIS</a> -->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav" style="float:right !important;">
-                <!-- <li class="active"><a href="#">Projects</a></li> -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white; font-weight: normal;">Projects/Research <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="index.html"><b>All projects/research</b></a></li>
-                    <li><a href="pghci.html">PGHCI</a></li>
-                    <li><a href="holodavis.html">HoloMuse</a></li>
-                    <li><a href="sspace.html">Sspace</a></li>
-                    <li><a href="twittertrails.html">TwitterTrails</a></li>
-                    <li><a href="ruhlman.html">Ruhlman Data</a></li>
-                    <li><a href="wefit.html">WeFit</a></li>
-                    <!-- <li><a href="hbs.html">HBS Time-Management</a></li> -->
-                    <!-- <li><a href="acc.html">e-Business and e-Government Report</a></li> -->
-                    <!-- <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li> -->
-                  </ul>
-                </li>
-                <li><a href="cv.pdf" style="color: white; font-weight: normal;">Resume/CV</a></li>
+                <li><a href="about_me.html" style="color: black; font-weight: normal;">About me</a></li>
+                <li><a href="index.html" style="color: black; font-weight: normal;">Work</a></li>
+                <li><a href="cv.pdf" style="color: black; font-weight: normal;">Resume/CV</a></li>
                 <!-- <li><a href="contact.html" style="color: white; font-weight: normal;">Contact</a></li> -->
               </ul>
             </div>
@@ -83,15 +66,31 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing" style="border-left:3px solid #4D4D4D; border-right:3px solid #4D4D4D;"> 
+    <div class="container marketing"> 
+
+
 
       <!-- START THE FEATURETTES -->
 
       <h2 class="featurette-heading">Ruhlman Data Science</h2>
+
+      <div style="float: left; width: 30%; margin-top: 2%; padding-right: 2%; height:3500px">
+         <b>Associated with:</b> CS234 Final Project<br><br>
+         <b>Responsibilities:</b> 
+          <ul>
+            <li>Wrote a python script to parse the data from 2003 and 2004 and helped with overall data cleaning</li>
+            <li>Conducted analysis on the total number of presentation per unique student and determined who "won" the conference by having the most presentations</li>
+            <li>Collaborated with the other 19 students to produce overall conclusions based on all the data analysis done by the team</li>
+            <li>Presentor of the work at the Wellesley College Ruhlman Conference 2016</li>
+          </ul><br><br>
+     
+      </div>
+
+      <div style="margin-top: 3%">
         
       <p class="lead"><u>Project Brief:</u> This was the final projest for Wellesley's Computer Science class, "Data, Analytics, and Visualization." It used all the twenty years of data from the Wellesley Ruhlman Conference to draw conclusions about the different departments at Wellesley and how the conference has changed over the years.</p>
       <center>
-        <img class="featurette-image img-responsive center-block" src="img/ruhlman_full.png" alt="PGHCI Main Page" style=" width: 50%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        <img class="featurette-image img-responsive center-block" src="img/ruhlman_full.png" alt="PGHCI Main Page" style=" width: 70%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
         <p><b>Figure 1.</b> Top 23 words from the 20 years of Ruhlman Data</p>
       </center>
       
@@ -100,47 +99,41 @@
       <p class="lead">After having the clean data in spreadsheet form, we used Tidy Data so that we could start doing our analysis. This analysis included finding out the number of presentations each Wellesley College department has sponsored for the Ruhlman Conference over the years, the most popular majors at the conference over the years, whether a singular department, and whether a particular class year has dominated the conference, etc. Below are a few of the graphs that we came up with as a result of this data analysis.</p>
 
       <center>
-        <img class="featurette-image img-responsive center-block" src="img/ruh1.png" alt="PGHCI Curation Tool" style=" width: 50%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        <img class="featurette-image img-responsive center-block" src="img/ruh1.png" alt="PGHCI Curation Tool" style=" width: 70%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
 
         <p><b>Figure 2.</b> Number of total presentations by department</p>
       </center>
       <br>
       <center>
-        <img class="featurette-image img-responsive center-block" src="img/ruh2.png" alt="PGHCI Curation Tool" style=" width: 50%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        <img class="featurette-image img-responsive center-block" src="img/ruh2.png" alt="PGHCI Curation Tool" style=" width: 70%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
         <p><b>Figure 3.</b> Number of total presentations by major</p>
       </center>
       <br>
       <center>
-        <img class="featurette-image img-responsive center-block" src="img/ruh3.png" alt="PGHCI Curation Tool" style=" width: 50%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        <img class="featurette-image img-responsive center-block" src="img/ruh3.png" alt="PGHCI Curation Tool" style=" width: 70%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
         <p><b>Figure 4.</b> Number of presentations per year by department</p>
       </center>
       <br>
       <center>
-        <img class="featurette-image img-responsive center-block" src="img/ruh4.png" alt="PGHCI Curation Tool" style=" width: 50%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        <img class="featurette-image img-responsive center-block" src="img/ruh4.png" alt="PGHCI Curation Tool" style=" width: 70%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
         <p><b>Figure 5.</b> Number of presentations per class year over the years</p>
       </center>
       <br>
       <center>
-        <img class="featurette-image img-responsive center-block" src="img/ruh5.png" alt="PGHCI Curation Tool" style=" width: 50%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        <img class="featurette-image img-responsive center-block" src="img/ruh5.png" alt="PGHCI Curation Tool" style=" width: 70%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
         <p><b>Figure 6.</b> Number of presentations per unique student</p>
       </center>
       <br>
 
       <p class="lead">By conducting this data analysis, we were able to draw conclusions about the Ruhlman Conference and the greater Wellesley College community as a whole. For example, there is no department that has consistently dominated the conference, there are more upperclass students who present at the conference, and the highest number of presentations per unique student have been 5. The code used behind this analysis has been aimed to be incorporated to the Ruhlman Conference website so people can continue to explore this data. </p>
 
-      <p class="lead"><u>My role in the project:</u>
-        <ul>
-          <li>Wrote a python script to parse the data from 2003 and 2004 and helped with overall data cleaning</li>
-          <li>Conducted analysis on the total number of presentation per unique student and determined who "won" the conference by having the most presentations</li>
-          <li>Collaborated with the other 19 students to produce overall conclusions based on all the data analysis done by the team</li>
-          <li>Presentor of the work at the Wellesley College Ruhlman Conference 2016</li>
-        </ul>
-      </p>
+
 
       <p class="lead"><u>Conferences:</u><br>
       N. M., Amadeo, W. Fanbulleh, J. L. Hom, K. Kenneally, H. Murphy, M. McCormack-Mager, A. Mitsuzawa, M. R. Ngo, <b>C. Pollalis</b>, A. Schwartz, C. Sorensen, M. Svanberg. "Twenty Years of Ruhlman Under the Loop of Science." The Wellesley Ruhlman Conference 2016.</p>
       <br>
       <br>
+      </div>
 
 
       
@@ -149,17 +142,7 @@
       <!-- /END THE FEATURETTES -->
 
 
-      <!-- FOOTER -->
-      <footer style="background-color: #4D4D4D; padding-top: 7px; color: white; height: 20%; margin-left:-15px; margin-right:-15px;">
-        <p class="pull-right"><a href="#" style="color: white !important;">Back to top</a></p>
-        <p>Christina Pollalis 2017
-        <!-- <svg class="social-svg" viewBox="0 -25 64 64" style="width:50px">
-          <g class="social-svg-icon">
-            <path d="M18.9,20v25.6H32V25.5h7.5V46h5.6V20H18.9z"></path>
-          </g>
-        </svg> -->
-        </p>
-      </footer>
+      
 
     </div><!-- /.container -->
 
