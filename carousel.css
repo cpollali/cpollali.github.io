@@ -1,3 +1,52 @@
+
+/*ADDED BY CHRISTINA*/
+
+.big_container {
+  padding-top: 10%;
+}
+
+.left_container {
+  float: left; 
+  width: 25%;  
+  padding-right: 2%; 
+  position:fixed; 
+  border-right:solid 1px black;
+}
+
+.right_container {
+  margin-left: 35%;
+}
+
+.featurette-heading {
+  margin-top:0px;
+}
+
+.featurette-heading-h3 {
+  margin-top:0px;
+}
+
+.two_images {
+  width: 49%; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px;
+}
+
+.one_image {
+  width: 100%; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px;
+}
+
+.three_images {
+  width: 32.5%; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px;
+}
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
