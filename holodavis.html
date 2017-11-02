@@ -65,14 +65,12 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing"> 
+    <div class="container marketing" style="padding-top: 10%;"> 
 
       <!-- START THE FEATURETTES -->
+      <div style="float: left; width: 25%;  padding-right: 2%; position:fixed; border-right:solid 1px black;">
+      <h2 class="featurette-heading" style="margin-top:0px">HoloMuse</h2>
 
-
-      <h2 class="featurette-heading">HoloMuse</h2>
-
-       <div style="float: left; width: 30%; margin-top: 2%; padding-right: 2%; height:3000px">
          <b>Associated with:</b> Wellesley HCI Lab<br><br>
          <b>Collaborators:</b> The Davis Museum<br><br>
          <b>Responsibilities:</b> 
@@ -89,51 +87,52 @@
      
       </div>
 
+      <div style="margin-left: 35%;">
+         <div align="center">
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/VwoF8et2-3c" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <br>
+          
+        <p class="lead"><u>Project Brief:</u> A collaboration project with the Davis Museum at Wellesley College to create a HoloLens application that allows a user to curate their own exhibit using 3D scanned artifacts from the British Museum. Users are prompted with an artifact inventory, from which they can select objects. Once selected, they can adjust the size, rotation, and location of the object. They can also remove the object's material and show information about it. The aim of this project is to augment the classroom experience in object-based disciplines by bringing previously unavaible objects into the classroom to facilitate exploration and understanding of the object.</p>
 
-       <div align="center">
-        <iframe width="70%" height="500" src="https://www.youtube.com/embed/VwoF8et2-3c" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <br>
+
+        <p class="lead"><u>Problem Statement:</u> Artifacts are restricted to certain spaces, usually museums, which makes it hard to study them in the classroom setting. There have been attempts to bring artifacts into the classroom setting through online websites such as SketchFab and using model replicas. However, there is still a lack of ability to actually bring the artifacts into the classroom.</p>
+
+        <p class="lead">This project aims to solve this by bringing artifacts into the classroom setting with Augmented Reality, by using the Microsoft HoloLens. We envisioned an application that allows a user to select a 3d model representation of the object from an inventory. Following this selection, the user can use air gestures and voice commands to manipulate the object. Through the application, the user can scale, rotate, and move the object in the space around them. They can also remove the outside paint layer of the object so that they can inspect the object's wear pattern, request to see more information, reset the size of the object, and delete it.</p>
+
+
+
         
-      <p class="lead"><u>Project Brief:</u> A collaboration project with the Davis Museum at Wellesley College to create a HoloLens application that allows a user to curate their own exhibit using 3D scanned artifacts from the British Museum. Users are prompted with an artifact inventory, from which they can select objects. Once selected, they can adjust the size, rotation, and location of the object. They can also remove the object's material and show information about it. The aim of this project is to augment the classroom experience in object-based disciplines by bringing previously unavaible objects into the classroom to facilitate exploration and understanding of the object.</p>
+       
+
+         <center>
+          <img src="img/holomuse2.png" alt="Image of Hologram" style=" width: 49%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+          <img src="img/holomuse1.png" alt="Image of Hologram" style=" width: 49%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+          <p><b>Figure 1.</b> A user opening a virtual gallery to select an object to place in the space and a user customizing an exhibit by placing an artifact in the physical world (a museum)</p>
+        </center>
+
+        <p class="lead">This project brought forth new problems for User Experience Design since there is no research on how users interact in holographic spaces. Once an initial development, we tested the application with a pilot study of users. We gathered qualitative data from this study, translated it into design decisions, and amended the application to reflect the user feedback gathered. Namely, we changed the interface so that it reflected more information about the objects on the inventory and a side menu so that the user could directly manipulate the objects by navigating each object's menu.</p>
+        <br>
+        <center>
+          <img src="img/holomuse3.jpg" alt="Image of Holographic app" style=" width: 32.5%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+          <img src="img/holomuse4.jpg" alt="Image of Holographic app" style=" width: 32.5%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+          <img src="img/holomuse5.jpg" alt="Image of Holographic app" style=" width: 32.5%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+          <p><b>Figure 2.</b> Actual screenshots of the second iteration of the application</p>
+        </center>
+        <br>
+        
+        <p class="lead">This second iteration was tested with a study of 60 participants, where the application was compared against 3D model replicas of the object and a desktop 3D modeling application (SketchFab).</p>
 
 
-      <p class="lead"><u>Problem Statement:</u> Artifacts are restricted to certain spaces, usually museums, which makes it hard to study them in the classroom setting. There have been attempts to bring artifacts into the classroom setting through online websites such as SketchFab and using model replicas. However, there is still a lack of ability to actually bring the artifacts into the classroom.</p>
-
-      <p class="lead">This project aims to solve this by bringing artifacts into the classroom setting with Augmented Reality, by using the Microsoft HoloLens. We envisioned an application that allows a user to select a 3d model representation of the object from an inventory. Following this selection, the user can use air gestures and voice commands to manipulate the object. Through the application, the user can scale, rotate, and move the object in the space around them. They can also remove the outside paint layer of the object so that they can inspect the object's wear pattern, request to see more information, reset the size of the object, and delete it.</p>
-
-
-
-      
-     
-
-       <center>
-        <img src="img/holomuse2.png" alt="Image of Hologram" style=" width: 33%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
-        <img src="img/holomuse1.png" alt="Image of Hologram" style=" width: 33%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
-        <p><b>Figure 1.</b> A user opening a virtual gallery to select an object to place in the space and a user customizing an exhibit by placing an artifact in the physical world (a museum)</p>
-      </center>
-
-      <p class="lead">This project brought forth new problems for User Experience Design since there is no research on how users interact in holographic spaces. Once an initial development, we tested the application with a pilot study of users. We gathered qualitative data from this study, translated it into design decisions, and amended the application to reflect the user feedback gathered. Namely, we changed the interface so that it reflected more information about the objects on the inventory and a side menu so that the user could directly manipulate the objects by navigating each object's menu.</p>
-      <br>
-      <center>
-        <img src="img/holomuse3.jpg" alt="Image of Holographic app" style=" width: 23%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
-        <img src="img/holomuse4.jpg" alt="Image of Holographic app" style=" width: 23%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
-        <img src="img/holomuse5.jpg" alt="Image of Holographic app" style=" width: 23%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
-        <p><b>Figure 2.</b> Actual screenshots of the second iteration of the application</p>
-      </center>
-      <br>
-      
-      <p class="lead">This second iteration was tested with a study of 60 participants, where the application was compared against 3D model replicas of the object and a desktop 3D modeling application (SketchFab).</p>
-
-
-      <p class="lead">We are currently extending the project to also augment the museum experience. A user will be able to use the HoloMuse application within the museum to have a "guided" tour and learn more about objects by viewing information through different mediums (audio, video, text).</p>
+        <p class="lead">We are currently extending the project to also augment the museum experience. A user will be able to use the HoloMuse application within the museum to have a "guided" tour and learn more about objects by viewing information through different mediums (audio, video, text).</p>
 
 
 
 
-      <p class="lead"><u>Publications/Conferences:</u>
-      <br><b>C. Pollalis</b>, W. Fahbulleh, J. Tynes, O. Shaer. <a href="publications/holomuse.pdf">HoloMuse: Enhancing engagement with Archeological Artifacts through Gesture-Based Interaction with Holograms</a>, Proc. TEI 2017 Tangible Embeded Interfaces.
-      </p>
+        <p class="lead"><u>Publications/Conferences:</u>
+        <br><b>C. Pollalis</b>, W. Fahbulleh, J. Tynes, O. Shaer. <a href="publications/holomuse.pdf">HoloMuse: Enhancing engagement with Archeological Artifacts through Gesture-Based Interaction with Holograms</a>, Proc. TEI 2017 Tangible Embeded Interfaces.
+        </p>
+      </div>
 
 
 
