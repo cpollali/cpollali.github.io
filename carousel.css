@@ -1,6 +1,8 @@
 
 /*ADDED BY CHRISTINA*/
-
+.container {
+  width: 90% !important;
+}
 .big_container {
   padding-top: 15vh;
 }
@@ -11,7 +13,7 @@
   height: 85vh;
   padding-right: 2%; 
   position:fixed; 
-  border-right:solid 1px black;
+ /* border-right:solid 1px black;*/
   overflow-y: scroll;
 }
 
